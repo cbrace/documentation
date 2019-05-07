@@ -145,3 +145,33 @@ from the calendar-app.
 
 .. note:: If you do not see the birthday calendar, your Administrator may has
           disabled this for your server.
+
+
+National holidays calendar
+--------------------------
+
+Nextcloud does not yet offer internal support for displaying the national holidays of your country in the calendar app. However, you can easily implement this feature by importing a national holiday calendar file from a third-party source. Here is how to do this:
+
+1. Navigate in your browser to the repository of national holiday calendar files produced by the Thunderbird community for the Lightning add-on: https://www.thunderbird.net/en-US/calendar/holidays/
+
+2. Download the ICS file for your region.
+
+3. Go to the **calendar app** in your Nextcloud host.
+
+4. Click on ``Settings and Import``
+
+5. Click on ``Import calendar``. 
+
+6. Select the ICS file you downloaded from Thunderbird.net
+
+Nextcloud will import this calendar file and your national holidays will now be displayed in the app. The default title of the new calendar is the filename of imported the ICS file; this can be edited if so wish like any other calendar name. This calendar's events (holidays) can be edited like those of any standard Nextcloud calendar. 
+
+If you live in a region for which a national holiday file is not yet available, please consider creating one yourself (very easy in the Lightning add-on, for example), exporting it from Thunderbird, and uploading it to the Thunderbird site to share with others. 
+
+
+
+
+
+
+
+
